@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERAL */
+header{
+    width: 100%;
+
+    border-bottom: 2px solid black;
+
+}
+footer{
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.titulos{
+    width: 4% ;
+    border-top: 2px solid black;
+}
+/* CONTACTO */
+.contact {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://img.freepik.com/fotos-premium/gente-ocio-amistad-concepto-comunicacion-grupo-amigos-sonrientes-felices-bebiendo-cerveza-cocteles-hablando-bar-o-pub_380164-103020.jpg?w=2000);
+    background-position: 25% 25%;
+}
+/* RESERVA */
+.reserv {
+    width: 100%;
+    height: 300px;
+    background-image: url(http://www.juntadeandalucia.es/presidencia/portavoz/resources/files/2019/4/10/1554900215154SYF_menu_restaurante_EST.jpg);
+    background-position: 25% 25%;
+}
+/* GALERIA */
+.galeria img{
+    width: 500px;
+    height: 400px;
+}
+/* MENU */
+.menu{
+    width: 80%;
+}
