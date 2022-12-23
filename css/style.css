@@ -6,8 +6,16 @@
 /* GENERAL */
 header{
     width: 100%;
-
     border-bottom: 2px solid black;
+
+}
+header nav ul li{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+
 
 }
 footer{
