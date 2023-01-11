@@ -8,71 +8,84 @@
     <title>Document</title>
 </head>
 <body>
-    <header >
-        <div>
-            <img src="./assets/columna.png" alt="">
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                    <a href="./pages/galeria.html">Galeria</a>
-                    <a href="./pages/menu.html">Menu</a>
-                    <a href="./pages/contacto.html">Contacto</a>
-                    <a href="./pages/reserva.html">Reservas</a>
-                </li>
-            </ul>
-        </nav>
+    <header>
+        <div class="title">
+        <img src="./assets/columna.png" alt="">
+        <a href=""><strong>Columna<br>Bar</strong></a>
+        </div>   
+            <nav>                
+                <ul class="navbar">                    
+                    <li><a href="./index.html"><strong>Inicio</strong></a></li>                                               
+                    <li><a href="./pages/galeria.html"><strong>Galeria</strong></a></li> 
+                    <li><a href="./pages/menu.html"><strong>Menu</strong></a></li> 
+                    <li><a href="./pages/contacto.html"><strong>Contacto</strong></a></li>
+                    <li><a href="./pages/reserva.html"><strong>Reservas</strong></a></li> 
+                </ul>
+            </nav>  
     </header>
     <main>
-        <section>
+        <section class="inicio">
             <h1>Cerveceria Columna Bar</h1>
             <h3>Cerveceria en Cordoba</h3>
             <h3>Avenida San Martin 245, Cordoba</h3>
             <img src="./assets/221004154233-01-world-best-bars-2022-full-169 (1).webp" alt="">
         </section>
+        
 
     <section>
-        <h2 class="titulos">Testimonios</h2>
-        <section>
-            <div>
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <h3>Hace 2 meses</h3>
+        <h2 class="titulos"><strong>Testimonios</strong></h2>
+        <section class="testimonios">
+        
+            <div class="reseña">
+                <div class="nota">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <h3>Hace 2 meses</h3>
+                </div>
+                <div class="escrito">
+                    <p>Me encanto el servicio y altas
+                    hamburguesas, recomendado</p>
+                    
+                    
+                    <cite class="autor">-Maxi</cite>    
+                </div>
             </div>
-            <div>Me encanto el servicio y altas
-                hamburguesas, recomendado
-                
-                -Maxi
+            <div class="reseña">
+                <div class="nota">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <h3>Hace 4 meses</h3>
+                </div>
+                <div>
+                    <p class="escrito">Muy buenas birras caseras y a
+                    muy buen precio.</p>
+                    
+                    
+                    <cite class="autor">-Rodrigo</cite> 
+                </div>
             </div>
-            <div>
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <h3>Hace 4 meses</h3>
-            </div>
-            <div>Muy buenas birras caseras y a
-                muy buen precio.
-                
-                -Rodrigo
-            </div>
-            <div>
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <img src="./assets/25533 (1).jpg" alt="">
-                <h3>Hace 2 semanas</h3>
-            </div>
-            <div>Voy todas las semanas con los
-                pibes y la pasamos joya.
-                
-                -Ulises
+            <div class="reseña">
+                <div class="nota">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <img src="./assets/25533 (1).jpg" alt="">
+                    <h3>Hace 2 semanas</h3>
+                </div>
+                <div>
+                    <p class="escrito">Voy todas las semanas con los
+                    pibes y la pasamos joya.
+                    </p>
+                    
+                    <cite class="autor">-Ulises</cite>   
+                </div>
             </div>
         </section>
     </section>
@@ -80,7 +93,8 @@
     <footer>
         <div>
             <h3>Avenida San Martin 245, Córdoba</h3>
-            <h3>columnabar@gmail.com</h3>
+        </div>
+            <div><h3>columnabar@gmail.com</h3>
         </div>
     </footer>
 </body>
