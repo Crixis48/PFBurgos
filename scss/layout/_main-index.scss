@@ -1,0 +1,56 @@
+/* INDEX */
+.inicio {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    color: rgb(165, 153, 44);
+    img{
+        width: 50%;
+        height: 50%;
+    }
+
+}
+
+.inicio h1{
+    font-size: 64px;
+}
+.inicio h3{
+    font-size: 32px;
+}
+
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.testimonios img{
+    width: 17px;
+    height: 17px;
+}
+.testimonios h3{
+    font-size: 16px;
+}
+
+.nota{
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.escrito{
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+
+.autor{
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(165, 153, 44);
+    font-size: 16px;
+    padding: 10px;
+}
